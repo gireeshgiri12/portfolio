@@ -1,4 +1,3 @@
-const Flip = require("react-reveal/Flip");
 import { motion } from "framer-motion";
 
 import { ProjectCard } from "../../components/ProjectCard/ProjectCard";
@@ -25,7 +24,6 @@ const Projects = () => {
           <div className={styles.projects_content}>
             {ProjectsData.map((item, index) =>
               index % 2 === 0 ? (
-                <Flip top key={item.title}>
                   <ProjectCard
                     key={item.title}
                     title={item.title}
@@ -34,9 +32,7 @@ const Projects = () => {
                     GitHub={item.GitHub}
                     hosted={item.hosted}
                   />
-                </Flip>
               ) : (
-                <Flip bottom key={item.title}>
                   <ProjectCard
                     key={item.title}
                     title={item.title}
@@ -45,7 +41,6 @@ const Projects = () => {
                     GitHub={item.GitHub}
                     hosted={item.hosted}
                   />
-                </Flip>
               )
             )}
           </div>

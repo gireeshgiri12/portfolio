@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import Lottie from "react-lottie";
 
 import { pageVariants, pageTransition } from "../../utils/FramerAnimation";
 import styles from "./contact.module.scss";
@@ -80,13 +79,6 @@ const Contact = () => {
           </form>
         </div>
         <div className={styles.lottie}>
-          <Lottie
-            options={defaultOptions}
-            height='100%'
-            width='100%'
-            isStopped={false}
-            isPaused={false}
-          />
         </div>
       </motion.div>
     </div>
