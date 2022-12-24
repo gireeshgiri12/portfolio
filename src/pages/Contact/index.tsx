@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 
 import { pageVariants, pageTransition } from "../../utils/FramerAnimation";
 import styles from "./contact.module.scss";
-import lottieData from "../../assets/email.json";
 const contactOpen = "<Contact />";
 
 const Contact = () => {
@@ -27,15 +26,6 @@ const Contact = () => {
     });
   };
 
-  // const defaultOptions = {
-  //   loop: false,
-  //   autoplay: true,
-  //   animationData: lottieData,
-  //   rendererSettings: {
-  //     preserveAspectRatio: "xMidYMid slice",
-  //   },
-  // };
-
   return (
     <div className={styles.contact}>
       <motion.div
@@ -47,7 +37,9 @@ const Contact = () => {
         className={styles.wrapper}
       >
         <div className={styles.form}>
+          <center>
           <h3 className={styles.contactOpen}>{contactOpen}</h3>
+          </center>
           <form onSubmit={handleOnsubmit}>
             <input
               type="text"
@@ -77,7 +69,6 @@ const Contact = () => {
             <button type="submit">Send</button>
           </form>
         </div>
-        <div className={styles.lottie}></div>
       </motion.div>
     </div>
   );
