@@ -1,4 +1,4 @@
-# Animated Portfolio 
+# GireeshHiremat Portfolio 
 
 ##### [Live Demo](https://animated-portfolio.erfjs.com) on Netlify
 
@@ -14,7 +14,7 @@
 
 
 ## 📋 Project description
-React Animated Portfolio Website 
+React Portfolio Website 
 
 ---------
   

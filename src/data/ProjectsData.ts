@@ -16,7 +16,7 @@ export const ProjectsData: ProjectsType[] = [
     hosted: 'https://erfjs.com',
   },
   {
-    title: 'Animated Portfolio',
+    title: 'Portfolio',
     description: `Portfolio website built with React v18.2, Typescript,  react-router-dom v6, framer-motion, react-icons, Scss`,
     image: 'https://raw.githubusercontent.com/erfjs/animated-portfolio/main/src/assets/example.png',
     GitHub: 'https://github.com/erfjs/animated-portfolio',
