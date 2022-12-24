@@ -5,7 +5,18 @@ import {
   SiNextdotjs,
   SiTypescript,
   SiPostman,
-  SiMaterialui,
+  SiExpress,
+  SiNpm,
+  SiSwagger,
+  SiMongodb,
+  SiPostgresql,
+  SiInfluxdb,
+  SiRedis,
+  SiNeo4J,
+  SiElasticsearch,
+  SiKubernetes,
+  SiJenkins,
+  SiRazorpay
 } from "react-icons/si";
 import { ImGit } from "react-icons/im";
 
@@ -27,9 +38,14 @@ export const SkillsData: SkillsType[] = [
     link: "https://www.typescriptlang.org/",
   },
   {
-    name: "React",
-    icon: <FaReact color='#000000dc' />,
-    link: "https://reactjs.org/",
+    name: "Node.js",
+    icon: <FaNodeJs color='#000000dc' />,
+    link: "https://nodejs.org/",
+  },
+  {
+    name: "Express",
+    icon: <SiExpress color='#000000dc' />,
+    link: "https://expressjs.com/",
   },
   {
     name: "Next.js",
@@ -37,9 +53,9 @@ export const SkillsData: SkillsType[] = [
     link: "https://nextjs.org/",
   },
   {
-    name: "Node.js",
-    icon: <FaNodeJs color='#000000dc' />,
-    link: "https://nodejs.org/",
+    name: "React",
+    icon: <FaReact color='#000000dc' />,
+    link: "https://reactjs.org/",
   },
   {
     name: "HTML",
@@ -52,9 +68,29 @@ export const SkillsData: SkillsType[] = [
     link: "https://www.w3schools.com/css/",
   },
   {
-    name: "Material-Ui",
-    icon: <SiMaterialui color='#000000dc' />,
-    link: "https://mui.com/",
+    name: "Mongodb",
+    icon: <SiMongodb color='#000000dc' />,
+    link: "https://www.mongodb.com/home",
+  },
+  {
+    name: "Postgresql",
+    icon: <SiPostgresql color='#000000dc' />,
+    link: "https://www.postgresql.org/",
+  },
+  {
+    name: "Influxdb",
+    icon: <SiInfluxdb color='#000000dc' />,
+    link: "https://www.influxdata.com/",
+  },
+  {
+    name: "Neo4J",
+    icon: <SiNeo4J color='#000000dc' />,
+    link: "https://neo4j.com/",
+  },
+  {
+    name: "Redis",
+    icon: <SiRedis color='#000000dc' />,
+    link: "https://redis.io/",
   },
   {
     name: "Git",
@@ -66,4 +102,29 @@ export const SkillsData: SkillsType[] = [
     icon: <SiPostman color='#000000dc' />,
     link: "https://www.postman.com/",
   },
+  {
+    name: "Npm",
+    icon: <SiNpm color='#000000dc' />,
+    link: "https://www.npmjs.com/",
+  },
+  {
+    name: "Swagger",
+    icon: <SiSwagger color='#000000dc' />,
+    link: "https://swagger.io/tools/swaggerhub/",
+  },
+  {
+    name: "Elasticsearch",
+    icon: <SiElasticsearch color='#000000dc' />,
+    link: "https://www.elastic.co/",
+  },
+  {
+    name: "Kubernetes",
+    icon: <SiKubernetes color='#000000dc' />,
+    link: "https://kubernetes.io/",
+  },
+  {
+    name: "Jenkins",
+    icon: <SiJenkins color='#000000dc' />,
+    link: "https://www.jenkins.io/",
+  }
 ];
