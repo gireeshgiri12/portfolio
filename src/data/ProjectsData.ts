@@ -9,17 +9,31 @@ interface ProjectsType {
 
 export const ProjectsData: ProjectsType[] = [
   {
-    title: 'Portfolio | Private Project',
+    title: 'Alfinity',
+    description: `Fastest Landing page built with React, Next Js and Styled Components. modern monorepo architecture. Minimal design`,
+    image: '../assets/alfinity.jpg',
+    GitHub: '',
+    hosted: 'https://al-cloud.altorumleren.com/login',
+  },
+  {
+    title: 'Alfinity Market Place',
     description: `Fastest Landing page built with React, Next Js and Styled Components. modern monorepo architecture. Minimal design`,
     image: 'https://erfjs.com/images/protfolio/my_portfolio/img-1.png',
     GitHub: '',
     hosted: 'https://erfjs.com',
   },
   {
-    title: 'Portfolio',
+    title: 'TASL',
+    description: `Fastest Landing page built with React, Next Js and Styled Components. modern monorepo architecture. Minimal design`,
+    image: '../assets/TASL.jpg',
+    GitHub: '',
+    hosted: 'https://web-stag.altorumleren.com/#/login',
+  },
+  {
+    title: 'Personal Portfolio',
     description: `Portfolio website built with React v18.2, Typescript,  react-router-dom v6, framer-motion, react-icons, Scss`,
-    image: 'https://raw.githubusercontent.com/erfjs/animated-portfolio/main/src/assets/example.png',
-    GitHub: 'https://github.com/erfjs/animated-portfolio',
-    hosted: 'https://animated-portfolio.erfjs.com/',
-  }
+    image: '../assets//portfolio.jpg',
+    GitHub: 'https://github.com/gireeshgiri12/portfolio.git',
+    hosted: 'https://gireeshhiremath.netlify.app/',
+  },
 ];

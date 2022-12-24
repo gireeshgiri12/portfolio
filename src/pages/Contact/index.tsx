@@ -27,14 +27,14 @@ const Contact = () => {
     });
   };
 
-  const defaultOptions = {
-    loop: false,
-    autoplay: true,
-    animationData: lottieData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+  // const defaultOptions = {
+  //   loop: false,
+  //   autoplay: true,
+  //   animationData: lottieData,
+  //   rendererSettings: {
+  //     preserveAspectRatio: "xMidYMid slice",
+  //   },
+  // };
 
   return (
     <div className={styles.contact}>
