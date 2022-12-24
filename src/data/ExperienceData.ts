@@ -6,19 +6,22 @@ interface ExperienceDataType {
 
 export const ExperienceData: ExperienceDataType[] = [
   {
-    title: 'Frontend Developer | Freelancer.com',
-    date: ' May 2019 _ Jul 2022',
+    title: 'Backend Developer | Altorum Leren',
+    date: ' July 2021 - Jan 2023',
     details: [
-      'Developed web applications using React, Redux, Next.js', 'Building a landing page with high speed and high scores in speed test gtmetrix and lighthouse, etc', 'Creating a web application (Windows, Android and iOS)', 'Create website with modern monorepo architecture', 'Collaborated closely with other developers on projects that require multiple people to complete tasks',
+      'Designed and developed multiple microservices for various reusable features of applications using NodeJs', 
+      'Trained and Shared knowledge with co-employees for various topics such as git, nodejs, creating npm packages, postman, swagger documentation of REST APIs',
+      'Worked with team leads and managers to improvise the development process by creating daily goals and by removing the impediments',
+      'Developed many server side applications which are efficient, testable and reusable.By making use of Test-Driven Development (TDD), static code analysis,SonarQube, artillery',
     ],
   },
   {
-    title: 'Frontend Developer | Upwork',
-    date: 'Sep 2019 - Jan 2022',
+    title: 'Frontend Developer | Beginner',
+    date: 'Dec 2022 - Present',
     details: [
-      'Worked with a team of 5 developers to create an e-commerce website using React and NodeJS',
-      'Built a dashboard for monitoring server performance using NodeJS, React, Material-ui',
-      'Created reusable components that were easily maintainable, reducing the time spent on future development by 50%',
+      'Strong understanding of web design principles and user experience design',
+      'Ability to create better UI using HTML,CSS',
+      'Started Working on ReactJs',
     ],
   },
 ];
