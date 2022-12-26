@@ -25,9 +25,9 @@ export const ProjectsData: ProjectsType[] = [
   {
     title: 'Alfinity Market Place',
     description: `Market Place is the project which was developed for selling IOT devices`,
-    image: '',
+    image: 'https://object-ticket.altorumleren.com/objects/api/v1/storage/marketplace-eshop/AFSPERkSEF.marketplace',
     GitHub: '',
-    hosted: '',
+    hosted: 'https://marketplace.altorumleren.com/',
   },
   {
     title: 'Portfolio',
