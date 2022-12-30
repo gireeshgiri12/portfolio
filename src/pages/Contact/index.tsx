@@ -107,7 +107,7 @@ const Contact = () => {
               onChange={handleOnchange}
             ></textarea>
             <button type="submit">Send</button>
-            <a href="https://object-ticket.altorumleren.com/objects/api/v1/storage/marketplace-eshop/N_codqdkRt.tasl" download="Gireesh's Resume" target='_blank'>
+            <a href="https://object-ticket.altorumleren.com/objects/api/v1/storage/marketplace-eshop/WwdTzG7Tlz.gireeshresume" download="Gireesh's Resume" target='_blank'>
               <button type="button"  className={styles.btn}>Download Resume</button>
             </a>
           </form>
