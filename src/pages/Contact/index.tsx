@@ -49,11 +49,11 @@ const Contact = () => {
       data: emailData,
     })
       .then((res) => { toast.success('Email sent Successfully', {
-        position: toast.POSITION.TOP_RIGHT
+        position: toast.POSITION.BOTTOM_RIGHT
       });
       })
       .catch((err) => {toast.error('Email sending failed', {
-        position: toast.POSITION.TOP_RIGHT
+        position: toast.POSITION.BOTTOM_RIGHT
       }); });
     setContactData({
       name: "",
@@ -61,6 +61,10 @@ const Contact = () => {
       message: "",
     });
   };
+ 
+  const downloadPdfFile = () => {
+    console.log("download logic goes here")
+}
 
   return (
     <div className={styles.contact}>
@@ -103,6 +107,9 @@ const Contact = () => {
               onChange={handleOnchange}
             ></textarea>
             <button type="submit">Send</button>
+            <a href="https://object-ticket.altorumleren.com/objects/api/v1/storage/marketplace-eshop/N_codqdkRt.tasl" download="Gireesh's Resume" target='_blank'>
+              <button type="button"  className={styles.btn}>Download Resume</button>
+            </a>
           </form>
         </div>
       </motion.div>
