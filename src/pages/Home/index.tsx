@@ -29,7 +29,7 @@ const Home = () => {
         exit="last"
         variants={pageVariants}
         transition={{
-          duration: 0.5,
+          duration: 0.8,
           delay: 0.6,
           ease: [0.5, 0.71, 1, 1.5],
         }}
