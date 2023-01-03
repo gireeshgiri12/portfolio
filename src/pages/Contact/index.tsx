@@ -68,12 +68,24 @@ const Contact = () => {
 
   return (
     <div className={styles.contact}>
-      <motion.div
+      {/* <motion.div
         initial="init"
         animate="anim"
         exit="last"
         variants={pageVariants}
         transition={pageTransition}
+        className={styles.wrapper}
+      > */}
+            <motion.div
+        initial={{ opacity: 0, scale: 1 }}
+        animate="anim"
+        exit="last"
+        variants={pageVariants}
+        transition={{
+          duration: 1.5,
+          delay: 0.1,
+          ease: [0.5, 0.71, 1, 1.5],
+        }}
         className={styles.wrapper}
       >
         <div className={styles.form}>
